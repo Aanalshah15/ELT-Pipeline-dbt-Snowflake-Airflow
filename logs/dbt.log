@@ -1,0 +1,57 @@
+[0m12:58:15.128474 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001FA96117FC8>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001FA9611F708>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001FA9611FB48>]}
+
+
+============================== 12:58:15.135801 | 443c3bd6-88f9-42fb-a182-dc31303e83bc ==============================
+[0m12:58:15.135801 [info ] [MainThread]: Running with dbt=1.5.11
+[0m12:58:15.137365 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'version_check': 'True', 'debug': 'False', 'log_path': 'logs', 'profiles_dir': 'C:\\Users\\LENOVO\\.dbt', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'static_parser': 'True', 'log_format': 'default', 'target_path': 'None', 'send_anonymous_usage_stats': 'True'}
+[0m12:58:15.138361 [warn ] [MainThread]: [ConfigFolderDirectory]: Unable to parse dict {'dir': WindowsPath('C:/Users/LENOVO/.dbt')}
+[0m12:58:15.139368 [info ] [MainThread]: Creating dbt configuration folder at 
+[0m12:58:54.195214 [debug] [MainThread]: Starter project path: c:\users\lenovo\pycharmprojects\project3\venv\lib\site-packages\dbt\include\starter_project
+[0m13:02:05.132115 [info ] [MainThread]: Profile data_pipeline_snowflake written to C:\Users\LENOVO\.dbt\profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m13:02:05.135237 [info ] [MainThread]: 
+Your new dbt project "data_pipeline_snowflake" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m13:02:05.137920 [debug] [MainThread]: Command `dbt init` succeeded at 13:02:05.137920 after 230.01 seconds
+[0m13:02:05.139934 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001FA9614FFC8>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001FAA8A6BF08>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001FA96FFEC08>]}
+[0m13:02:05.140934 [debug] [MainThread]: Flushing usage events
+[0m13:09:59.636867 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000249C5A26E48>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000249C5A26E88>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000249C5A26F08>]}
+
+
+============================== 13:09:59.645889 | 7aca80df-3407-4f3a-9028-85f30271360c ==============================
+[0m13:09:59.645889 [info ] [MainThread]: Running with dbt=1.5.11
+[0m13:09:59.648157 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\LENOVO\\.dbt', 'version_check': 'True', 'debug': 'False', 'log_path': 'logs', 'warn_error': 'None', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'static_parser': 'True', 'log_format': 'default', 'target_path': 'None', 'send_anonymous_usage_stats': 'True'}
+[0m13:09:59.650172 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path C:\Users\LENOVO\PycharmProjects\project3\Snoflake_dbt\dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m13:09:59.653171 [debug] [MainThread]: Command `dbt deps` failed at 13:09:59.652170 after 0.03 seconds
+[0m13:09:59.654171 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000249C5A33288>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000249BE96A288>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000249C5A4A5C8>]}
+[0m13:09:59.655171 [debug] [MainThread]: Flushing usage events
+[0m13:10:37.841750 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001BAE3416B48>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001BAE0753288>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001BAE3416F88>]}
+
+
+============================== 13:10:37.848749 | 24a0cdfc-9e46-4f3f-9a76-23e448e22cd7 ==============================
+[0m13:10:37.848749 [info ] [MainThread]: Running with dbt=1.5.11
+[0m13:10:37.849753 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\LENOVO\\.dbt', 'fail_fast': 'False', 'debug': 'False', 'log_path': 'logs', 'version_check': 'True', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'static_parser': 'True', 'introspect': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'target_path': 'None', 'send_anonymous_usage_stats': 'True'}
+[0m13:10:37.852127 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path C:\Users\LENOVO\PycharmProjects\project3\Snoflake_dbt\dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m13:10:37.853636 [debug] [MainThread]: Command `dbt deps` failed at 13:10:37.853636 after 0.03 seconds
+[0m13:10:37.855093 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001BAE341C248>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001BADC36A2C8>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001BAE3434348>]}
+[0m13:10:37.855611 [debug] [MainThread]: Flushing usage events
